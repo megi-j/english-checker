@@ -1,0 +1,80 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-family: 'Manrope';
+    font-size: 30px;
+    margin: 30px;
+}
+.text {
+    padding: 25px;
+    font-family: 'Manrope';
+    line-height: 20px;
+    background-color: #6fc4da;
+    font-size: 18px;
+}
+.questions {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Manrope';
+    font-size: 25px;
+    font-weight: bold;
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+.question {
+    margin-bottom: 10px;
+    font-family: 'Manrope';
+    font-weight: bolder;
+}
+form {
+    background-color: #fce030;
+}
+form div {
+    margin-bottom: 5px;
+}
+form div input {
+    vertical-align: middle;
+}
+form div label {
+    font-family: 'Manrope';
+}
+.lastAnswer {
+    margin-bottom: 20px;
+}
+.result {
+    margin-top: 20px;
+}
+.submit {
+    margin-top: 30px;
+    font-family:'Manrope';
+    width: 100px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    background-color: #6fc4da;
+    font-size: 15px;
+}
+.resultText {
+    font-family: 'Manrope';
+    font-size: 30px;
+}
+
+@media (max-width: 600px){
+    .submit {
+        width: 150px;
+        margin-left: 30%;
+    }
+    form {
+        padding: 10px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    
+}
