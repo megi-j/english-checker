@@ -31,12 +31,15 @@
     margin-bottom: 10px;
     font-family: 'Manrope';
     font-weight: bolder;
+    
 }
 form {
     background-color: #fce030;
 }
+
 form div {
     margin-bottom: 5px;
+   
 }
 form div input {
     vertical-align: middle;
@@ -64,7 +67,14 @@ form div label {
     font-family: 'Manrope';
     font-size: 30px;
 }
-
+.support {
+    color: #13aae3;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Manrope';
+    margin-bottom: 20px;
+    
+}
 @media (max-width: 600px){
     .submit {
         width: 150px;

@@ -14,3 +14,4 @@ submit.addEventListener('click', function(e){
     submit.disabled = true;
     resultText.innerHTML = "You have " + (correctAnswerArr.length / 8) * 100 + " % correct answers";
 })
+
