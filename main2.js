@@ -1,5 +1,5 @@
 let submit = document.querySelector(".submit");
-let allCorrectAnswer = document.querySelectorAll(".fourthAnswer");
+let allCorrectAnswer = document.querySelectorAll(".firstAnswer");
 let resultText = document.querySelector(".resultText");
 
 submit.addEventListener("click", function (e) {
